@@ -2,11 +2,16 @@
 django-crispy-forms
 ===================
 
-.. image:: https://travis-ci.org/maraujop/django-crispy-forms.png?branch=master
+.. image:: https://travis-ci.org/maraujop/django-crispy-forms.png?branch=dev
    :alt: Build Status
    :target: https://travis-ci.org/maraujop/django-crispy-forms
 
+.. image:: http://codecov.io/github/maraujop/django-crispy-forms/coverage.svg?branch=master
+   :target: http://codecov.io/github/maraujop/django-crispy-forms?branch=master
+
 The best way to have Django_ DRY forms. Build programmatic reusable layouts out of components, having full control of the rendered HTML without writing HTML in templates. All this without breaking the standard way of doing things in Django, so it plays nice with any other form application.
+
+`django-crispy-forms` supports Python 2.7/Python 3.2+ and Django 1.8+
 
 The application mainly provides:
 
@@ -59,9 +64,5 @@ Special thanks
 .. _`@pydanny`: https://github.com/pydanny
 .. _`@kennethlove`: https://github.com/kennethlove
 
-Note
-----
-
-django-crispy-forms supports Django 1.3 or higher with Python 2.6.x, Python 2.7.x and Python 3.3.x. If you need to support Python 2.5 or Django 1.2 you will need to use a version of django-crispy-forms less than 1.3. For earlier versions of Django or Python you will need to use django-uni-form 0.7.0.
 
 .. _Django: http://djangoproject.com
